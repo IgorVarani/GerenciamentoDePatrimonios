@@ -1,0 +1,6 @@
+@GestaoPatrimonios_HostAddress = http://localhost:5261
+
+GET {{GestaoPatrimonios_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
