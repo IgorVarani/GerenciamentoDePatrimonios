@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\43698404818\\Desktop\\GerenciamentoPatrimonio\\GestaoPatrimonios\\GestaoPatrimonios.csproj": {}
+    "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\GestaoPatrimonios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\43698404818\\Desktop\\GerenciamentoPatrimonio\\GestaoPatrimonios\\GestaoPatrimonios.csproj": {
+    "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\GestaoPatrimonios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\43698404818\\Desktop\\GerenciamentoPatrimonio\\GestaoPatrimonios\\GestaoPatrimonios.csproj",
+        "projectUniqueName": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\GestaoPatrimonios.csproj",
         "projectName": "GestaoPatrimonios",
-        "projectPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoPatrimonio\\GestaoPatrimonios\\GestaoPatrimonios.csproj",
+        "projectPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\GestaoPatrimonios.csproj",
         "packagesPath": "C:\\Users\\43698404818\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoPatrimonio\\GestaoPatrimonios\\obj\\",
+        "outputPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.25, )"
@@ -73,6 +77,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.25, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

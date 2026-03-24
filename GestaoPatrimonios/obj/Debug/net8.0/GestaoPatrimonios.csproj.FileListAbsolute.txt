@@ -146,3 +146,15 @@ C:\Users\43698404818\Desktop\GerenciamentoPatrimonio\GestaoPatrimonios\obj\Debug
 C:\Users\43698404818\Desktop\GerenciamentoPatrimonio\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.pdb
 C:\Users\43698404818\Desktop\GerenciamentoPatrimonio\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.genruntimeconfig.cache
 C:\Users\43698404818\Desktop\GerenciamentoPatrimonio\GestaoPatrimonios\obj\Debug\net8.0\ref\GestaoPatrimonios.dll
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.csproj.AssemblyReference.cache
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.AssemblyInfoInputs.cache
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.AssemblyInfo.cs
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.csproj.CoreCompileInputs.cache
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.sourcelink.json
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.dll
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\refint\GestaoPatrimonios.dll
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.pdb
