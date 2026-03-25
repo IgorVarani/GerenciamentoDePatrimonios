@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\applications\\services\\areaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:applications\\services\\areaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\repositories\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:repositories\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\interfaces\\iarearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AreaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\AreaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AreaRepository.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\AreaRepository.cs",
-              "RelativeToolTip": "Repositories\\AreaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T13:47:28.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IAreaRepository.cs",
               "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\IAreaRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IAreaRepository.cs",
               "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\IAreaRepository.cs",
               "RelativeToolTip": "Interfaces\\IAreaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T13:45:36.348Z",
+              "WhenOpened": "2026-03-25T13:05:21.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AreaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\AreaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AreaRepository.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\AreaRepository.cs",
+              "RelativeToolTip": "Repositories\\AreaRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T12:49:10.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AreaService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Applications\\Services\\AreaService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\AreaService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Applications\\Services\\AreaService.cs",
+              "RelativeToolTip": "Applications\\Services\\AreaService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwFcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T12:52:38.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AreaController.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Controllers\\AreaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AreaController.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Controllers\\AreaController.cs",
+              "RelativeToolTip": "Controllers\\AreaController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwEIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T12:59:04.265Z",
               "EditorCaption": ""
             }
           ]
