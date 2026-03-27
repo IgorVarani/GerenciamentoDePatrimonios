@@ -57,6 +57,13 @@ namespace GestaoPatrimonios.Applications.Services
         {
             Validar.ValidarNome(dto.NomeLocal);
 
+            Localizacao localExistente = _repository.BuscarPorNome(dto.NomeLocal, dto.AreaID);
+
+            if (localExistente != null)
+            {
+                throw new DomainException("Já existe uma local cadastrado com esse nome nessa área.");
+            }
+
             if (!_repository.AreaExiste(dto.AreaID))
             {
                 throw new DomainException("Área informada não existe.");
@@ -82,6 +89,13 @@ namespace GestaoPatrimonios.Applications.Services
             if(localizacaoBanco == null)
             {
                 throw new DomainException("Localização não encontrada.");
+            }
+
+            Localizacao localExistente = _repository.BuscarPorNome(dto.NomeLocal, dto.AreaID);
+
+            if (localExistente != null)
+            {
+                throw new DomainException("Já existe uma local cadastrado com esse nome nessa área.");
             }
 
             if (!_repository.AreaExiste(dto.AreaID))
