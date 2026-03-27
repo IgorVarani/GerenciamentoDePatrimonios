@@ -24,6 +24,11 @@ namespace GestaoPatrimonios.Repositories
             return _context.Localizacao.Find(localizacaoId)!;
         }
 
+        public Localizacao BuscarPorNome(string nomeLocal, Guid areaID)
+        {
+            return _context.Localizacao.FirstOrDefault(local => local.NomeLocal.ToLower() == nomeLocal.ToLower() && local.AreaID == areaID)!;
+        }
+
         public void Adicionar(Localizacao localizacao)
         {
             _context.Localizacao.Add(localizacao);
@@ -55,11 +60,6 @@ namespace GestaoPatrimonios.Repositories
             localizacao.AreaID = localizacao.AreaID;
 
             _context.SaveChanges();
-        }
-
-        public Localizacao BuscarPorNome(string nomeLocal, Guid areaID)
-        {
-            return _context.Localizacao.FirstOrDefault(local => local.NomeLocal.ToLower() == nomeLocal.ToLower() && local.AreaID == areaID)!;
         }
     }
 }
