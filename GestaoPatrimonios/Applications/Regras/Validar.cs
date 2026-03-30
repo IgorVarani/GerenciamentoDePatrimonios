@@ -8,7 +8,15 @@ namespace GestaoPatrimonios.Applications.Regras
         {
             if (string.IsNullOrWhiteSpace(nome))
             {
-                throw new DomainException("Nome é obrigatório.");
+                throw new DomainException("Nome é obrigatório");
+            }
+        }
+
+        public static void ValidarEstado(string estado)
+        {
+            if (string.IsNullOrWhiteSpace(estado))
+            {
+                throw new DomainException("Estado é obrigatório.");
             }
         }
     }

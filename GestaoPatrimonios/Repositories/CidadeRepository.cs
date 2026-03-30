@@ -1,7 +1,6 @@
 ﻿using GestaoPatrimonios.Contexts;
 using GestaoPatrimonios.Domains;
 using GestaoPatrimonios.Interfaces;
-using GestaoPatrimonios.Exceptions;
 
 namespace GestaoPatrimonios.Repositories
 {
@@ -24,9 +23,11 @@ namespace GestaoPatrimonios.Repositories
             return _context.Cidade.Find(cidadeId)!;
         }
 
-        public Cidade BuscarPorNomeEstado(string nomeCidade, string nomeEstado)
+        public Cidade BuscarPorNomeEEstado(string nomeCidade, string estado)
         {
-            return _context.Cidade.FirstOrDefault(cidade => cidade.NomeCidade.ToLower() == nomeCidade.ToLower())!;
+            return _context.Cidade.FirstOrDefault(cidade =>
+                cidade.NomeCidade.ToLower() == nomeCidade.ToLower() &&
+                cidade.Estado.ToLower() == estado.ToLower())!;
         }
 
         public void Adicionar(Cidade cidade)
@@ -51,8 +52,6 @@ namespace GestaoPatrimonios.Repositories
 
             cidadeBanco.NomeCidade = cidade.NomeCidade;
             cidadeBanco.Estado = cidade.Estado;
-            cidadeBanco.Bairro = cidade.Bairro;
-            cidadeBanco.CidadeID = cidade.CidadeID;
 
             _context.SaveChanges();
         }

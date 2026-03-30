@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\repositories\\cidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:repositories\\cidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\interfaces\\icidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:interfaces\\icidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\applications\\services\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:applications\\services\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\dtos\\enderecodto\\criarenderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:dtos\\enderecodto\\criarenderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\interfaces\\ienderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:interfaces\\ienderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICidadeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\ICidadeRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ICidadeRepository.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\ICidadeRepository.cs",
-              "RelativeToolTip": "Interfaces\\ICidadeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CriarEnderecoDto.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\DTOs\\EnderecoDto\\CriarEnderecoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EnderecoDto\\CriarEnderecoDto.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\DTOs\\EnderecoDto\\CriarEnderecoDto.cs",
+              "RelativeToolTip": "DTOs\\EnderecoDto\\CriarEnderecoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T11:59:20.604Z",
+              "WhenOpened": "2026-03-30T12:41:47.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEnderecoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\IEnderecoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEnderecoRepository.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\IEnderecoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IEnderecoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:29:09.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnderecoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\EnderecoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EnderecoRepository.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\EnderecoRepository.cs",
+              "RelativeToolTip": "Repositories\\EnderecoRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:31:13.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnderecoService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Applications\\Services\\EnderecoService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\EnderecoService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Applications\\Services\\EnderecoService.cs",
+              "RelativeToolTip": "Applications\\Services\\EnderecoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:37:40.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CidadeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\CidadeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CidadeRepository.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\CidadeRepository.cs",
-              "RelativeToolTip": "Repositories\\CidadeRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA0wB0AAAAJAAAAAAAAAA==",
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Controllers\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Controllers\\EnderecoController.cs",
+              "RelativeToolTip": "Controllers\\EnderecoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T11:44:49.08Z",
+              "WhenOpened": "2026-03-30T13:08:53.235Z",
               "EditorCaption": ""
             }
           ]
