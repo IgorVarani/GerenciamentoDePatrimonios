@@ -36,6 +36,7 @@ namespace GestaoPatrimonios.Repositories
             _context.TipoPatrimonio.Add(tipoPatrimonio);
             _context.SaveChanges();
         }
+
         public void Atualizar(TipoPatrimonio tipoPatrimonio)
         {
             if (tipoPatrimonio == null)
