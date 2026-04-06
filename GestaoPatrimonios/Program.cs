@@ -47,6 +47,10 @@ builder.Services.AddScoped<EnderecoService>();
 builder.Services.AddScoped<ILocalizacaoRepository, LocalizacaoRepository>();
 builder.Services.AddScoped<LocalizacaoService>();
 
+// Patrimônio
+builder.Services.AddScoped<IPatrimonioRepository, PatrimonioRepository>();
+builder.Services.AddScoped<PatrimonioService>();
+
 // Status Patrimônios
 builder.Services.AddScoped<IStatusPatrimonioRepository, StatusPatrimonioRepository>();
 builder.Services.AddScoped<StatusPatrimonioService>();

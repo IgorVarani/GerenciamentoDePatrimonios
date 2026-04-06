@@ -29,7 +29,7 @@ namespace GestaoPatrimonios.Repositories
         {
             return _context.Patrimonio.FirstOrDefault(p =>
                 p.NumeroPatrimonio.ToLower() == numeroPatrimonio.ToLower() &&
-                p.PatrimonioID == patrimonioId)!;
+                p.PatrimonioID != patrimonioId)!;
         }
 
         public bool LocalizacaoExiste(Guid localizacaoId)
@@ -78,6 +78,21 @@ namespace GestaoPatrimonios.Repositories
 
         public void AtualizarStatus(Patrimonio patrimonio)
         {
+            if (patrimonio == null)
+            {
+                return;
+            }
+
+            Patrimonio? patrimonioBanco = _context.Patrimonio.FirstOrDefault
+                (varAux => varAux.PatrimonioID == patrimonio.PatrimonioID && varAux.StatusPatrimonioID == patrimonio.StatusPatrimonioID);
+
+            if (patrimonioBanco == null)
+            {
+                return;
+            }
+
+            patrimonioBanco.PatrimonioID = patrimonio.PatrimonioID;
+            patrimonioBanco.StatusPatrimonioID = patrimonio.StatusPatrimonioID;
         }
     }
 }
