@@ -52,6 +52,14 @@ namespace GestaoPatrimonios.Applications.Regras
             }
         }
 
+        public static void ValidarSenha(string senha)
+        {
+            if (string.IsNullOrWhiteSpace(senha))
+            {
+                throw new DomainException("Senha é obrigatória.");
+            }
+        }
+
         public static void ValidarPatrimonio(string patrimonio)
         {
             if (string.IsNullOrWhiteSpace(patrimonio))
