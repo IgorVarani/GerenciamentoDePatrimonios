@@ -2,7 +2,6 @@
 using GestaoPatrimonios.DTOs.Bairro;
 using GestaoPatrimonios.DTOs.StatusPatrimonioDto;
 using GestaoPatrimonios.DTOs.StatusTransferenciaDto;
-using GestaoPatrimonios.DTOs.TipoPatrimonioDto;
 using GestaoPatrimonios.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

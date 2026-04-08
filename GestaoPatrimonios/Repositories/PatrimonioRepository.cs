@@ -37,10 +37,12 @@ namespace GestaoPatrimonios.Repositories
             return _context.Localizacao.Any(l => l.LocalizacaoID == localizacaoId);
         }
 
+        /*
         public bool TipoPatrimonioExiste(Guid tipoPatrimonioId)
         {
             return _context.TipoPatrimonio.Any(t => t.TipoPatrimonioID == tipoPatrimonioId);
         }
+        */
 
         public bool StatusPatrimonioExiste(Guid statusPatrimonioId)
         {

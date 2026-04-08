@@ -1,7 +1,6 @@
 ﻿using GestaoPatrimonios.Applications.Services;
 using GestaoPatrimonios.DTOs.Bairro;
 using GestaoPatrimonios.DTOs.CargoDto;
-using GestaoPatrimonios.DTOs.TipoPatrimonioDto;
 using GestaoPatrimonios.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

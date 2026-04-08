@@ -2,7 +2,6 @@
 using GestaoPatrimonios.Domains;
 using GestaoPatrimonios.DTOs.Bairro;
 using GestaoPatrimonios.DTOs.CargoDto;
-using GestaoPatrimonios.DTOs.TipoPatrimonioDto;
 using GestaoPatrimonios.Exceptions;
 using GestaoPatrimonios.Interfaces;
 

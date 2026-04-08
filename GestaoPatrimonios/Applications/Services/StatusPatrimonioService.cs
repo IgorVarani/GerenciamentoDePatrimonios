@@ -3,7 +3,6 @@ using GestaoPatrimonios.Domains;
 using GestaoPatrimonios.DTOs.Bairro;
 using GestaoPatrimonios.DTOs.StatusPatrimonioDto;
 using GestaoPatrimonios.DTOs.StatusTransferenciaDto;
-using GestaoPatrimonios.DTOs.TipoPatrimonioDto;
 using GestaoPatrimonios.Exceptions;
 using GestaoPatrimonios.Interfaces;
 
