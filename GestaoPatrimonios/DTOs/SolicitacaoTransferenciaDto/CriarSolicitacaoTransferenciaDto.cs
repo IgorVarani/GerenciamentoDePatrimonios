@@ -4,6 +4,6 @@
     {
         public string Justificativa { get; set; } = string.Empty;
         public Guid PatrimonioID { get; set; }
-        public Guid Localizacao { get; set; }
+        public Guid LocalizacaoID { get; set; }
     }
 }

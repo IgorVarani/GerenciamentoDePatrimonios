@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\repositories\\solicitacaotransferenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:repositories\\solicitacaotransferenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\interfaces\\isolicitacaotransferenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:interfaces\\isolicitacaotransferenciarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\applications\\services\\solicitacaotransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|solutionrelative:applications\\services\\solicitacaotransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A54A1A4-0018-05C2-B0C0-A8B60425B452}|GestaoPatrimonios.csproj|c:\\users\\43698404818\\desktop\\gerenciamentodepatrimonios\\gestaopatrimonios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -39,28 +35,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ISolicitacaoTransferenciaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\ISolicitacaoTransferenciaRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ISolicitacaoTransferenciaRepository.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Interfaces\\ISolicitacaoTransferenciaRepository.cs",
-              "RelativeToolTip": "Interfaces\\ISolicitacaoTransferenciaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T13:15:35.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SolicitacaoTransferenciaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\SolicitacaoTransferenciaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\SolicitacaoTransferenciaRepository.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Repositories\\SolicitacaoTransferenciaRepository.cs",
-              "RelativeToolTip": "Repositories\\SolicitacaoTransferenciaRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwD4AAAA2AAAAAAAAAA==",
+              "Title": "SolicitacaoTransferenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Applications\\Services\\SolicitacaoTransferenciaService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\SolicitacaoTransferenciaService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\GerenciamentoDePatrimonios\\GestaoPatrimonios\\Applications\\Services\\SolicitacaoTransferenciaService.cs",
+              "RelativeToolTip": "Applications\\Services\\SolicitacaoTransferenciaService.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAAOgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T13:21:33.056Z",
+              "WhenOpened": "2026-04-09T12:51:11.608Z",
               "EditorCaption": ""
             }
           ]

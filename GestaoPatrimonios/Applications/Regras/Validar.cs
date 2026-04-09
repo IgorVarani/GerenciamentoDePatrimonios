@@ -60,6 +60,14 @@ namespace GestaoPatrimonios.Applications.Regras
             }
         }
 
+        public static void ValidarJustificativa(string justificativa)
+        {
+            if (string.IsNullOrWhiteSpace(justificativa))
+            {
+                throw new DomainException("Justificativa é obrigatória.");
+            }
+        }
+
         public static void ValidarPatrimonio(string patrimonio)
         {
             if (string.IsNullOrWhiteSpace(patrimonio))
