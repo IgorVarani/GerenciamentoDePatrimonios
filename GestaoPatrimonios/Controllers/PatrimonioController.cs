@@ -1,8 +1,10 @@
 ﻿using GestaoPatrimonios.Applications.Services;
 using GestaoPatrimonios.DTOs.PatrimonioDto;
 using GestaoPatrimonios.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace GestaoPatrimonios.Controllers
 {
@@ -17,6 +19,7 @@ namespace GestaoPatrimonios.Controllers
             _service = service;
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult<List<ListarPatrimonioDto>> Listar()
         {
@@ -29,7 +32,8 @@ namespace GestaoPatrimonios.Controllers
             return Ok(listar);
         }
 
-        [HttpGet("id/{id}")]
+        [Authorize]
+        [HttpGet("{id}")]
         public ActionResult<ListarPatrimonioDto> BuscarPorId(Guid id)
         {
             try
@@ -43,26 +47,23 @@ namespace GestaoPatrimonios.Controllers
             }
         }
 
-        [HttpGet("id/{numeroPatrimonio}/{patrimonioId?}")]
-        public ActionResult<ListarPatrimonioDto> BuscarPorNumeroPatrimonio(string numeroPatrimonio, Guid? patrimonioId = null)
+        [Authorize(Roles = "Coordenador")]
+        [HttpPost("importar-csv")]
+        public ActionResult Adicionar(IFormFile arquivoCsv)
         {
             try
             {
-                ListarPatrimonioDto dto = _service.BuscarPorNumeroPatrimonio(numeroPatrimonio, patrimonioId);
-                return Ok(dto);
-            }
-            catch (DomainException ex)
-            {
-                return NotFound(ex.Message);
-            }
-        }
+                string usuarioIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-        [HttpPost]
-        public ActionResult<CriarPatrimonioDto> Adicionar(ListarPatrimonioDto dto)
-        {
-            try
-            {
-                _service.Adicionar(dto);
+                if (string.IsNullOrWhiteSpace(usuarioIdClaim))
+                {
+                    return Unauthorized("Usuário não autenticado.");
+                }
+
+                Guid usuarioId = Guid.Parse(usuarioIdClaim);
+
+                _service.Adicionar(arquivoCsv, usuarioId);
+
                 return Created();
             }
             catch (DomainException ex)
@@ -71,22 +72,9 @@ namespace GestaoPatrimonios.Controllers
             }
         }
 
-        [HttpPut]
-        public ActionResult<ListarPatrimonioDto> Atualizar(Guid id, CriarPatrimonioDto dto)
-        {
-            try
-            {
-                _service.Atualizar(id, dto);
-                return NoContent();
-            }
-            catch (DomainException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [HttpPatch("tipoPatrimonio/{id}")]
-        public ActionResult<AtualizarStatusPatrimonioDto> AtualizarStatus(Guid id, AtualizarStatusPatrimonioDto dto)
+        [Authorize(Roles = "Coordenador")]
+        [HttpPatch("{id}/status")]
+        public ActionResult AtualizarStatus(Guid id, AtualizarStatusPatrimonioDto dto)
         {
             try
             {

@@ -15,9 +15,7 @@ namespace GestaoPatrimonios.Repositories
 
         public List<Patrimonio> Listar()
         {
-            return _context.Patrimonio
-                .OrderBy(patrimonio => patrimonio.Denominacao)
-                .ToList();
+            return _context.Patrimonio.OrderBy(patrimonio => patrimonio.Denominacao).ToList();
         }
 
         public Patrimonio BuscarPorId(Guid patrimonioId)
@@ -25,28 +23,34 @@ namespace GestaoPatrimonios.Repositories
             return _context.Patrimonio.Find(patrimonioId)!;
         }
 
-        public Patrimonio BuscarPorNumeroPatrimonio(string numeroPatrimonio, Guid? patrimonioId)
+        public bool BuscarPorNumeroPatrimonio(string numeroPatrimonio)
         {
-            return _context.Patrimonio.FirstOrDefault(p =>
-                p.NumeroPatrimonio.ToLower() == numeroPatrimonio.ToLower() &&
-                p.PatrimonioID != patrimonioId)!;
+            return _context.Patrimonio.Any(patrimonio => patrimonio.NumeroPatrimonio == numeroPatrimonio);
         }
 
         public bool LocalizacaoExiste(Guid localizacaoId)
         {
-            return _context.Localizacao.Any(l => l.LocalizacaoID == localizacaoId);
+            return _context.Localizacao.Any(localizacao => localizacao.LocalizacaoID == localizacaoId);
         }
-
-        /*
-        public bool TipoPatrimonioExiste(Guid tipoPatrimonioId)
-        {
-            return _context.TipoPatrimonio.Any(t => t.TipoPatrimonioID == tipoPatrimonioId);
-        }
-        */
 
         public bool StatusPatrimonioExiste(Guid statusPatrimonioId)
         {
-            return _context.StatusPatrimonio.Any(s => s.StatusPatrimonioID == statusPatrimonioId);
+            return _context.StatusPatrimonio.Any(status => status.StatusPatrimonioID == statusPatrimonioId);
+        }
+
+        public Localizacao BuscarLocalizacaoPorNome(string nomeLocalizacao)
+        {
+            return _context.Localizacao.FirstOrDefault(localizacao => localizacao.NomeLocal.ToLower() == nomeLocalizacao.ToLower())!;
+        }
+
+        public StatusPatrimonio BuscarStatusPatrimonioPorNome(string nomeStatus)
+        {
+            return _context.StatusPatrimonio.FirstOrDefault(status => status.NomeStatus.ToLower() == nomeStatus.ToLower())!;
+        }
+
+        public TipoAlteracao BuscarTipoAlteracaoPorNome(string nomeTipo)
+        {
+            return _context.TipoAlteracao.FirstOrDefault(tipo => tipo.NomeTipo.ToLower() == nomeTipo.ToLower())!;
         }
 
         public void Adicionar(Patrimonio patrimonio)
@@ -55,7 +59,7 @@ namespace GestaoPatrimonios.Repositories
             _context.SaveChanges();
         }
 
-        public void Atualizar(Patrimonio patrimonio)
+        public void AtualizarStatus(Patrimonio patrimonio)
         {
             if (patrimonio == null)
             {
@@ -69,32 +73,15 @@ namespace GestaoPatrimonios.Repositories
                 return;
             }
 
-            patrimonioBanco.Denominacao = patrimonio.Denominacao;
-            patrimonioBanco.PatrimonioID = patrimonio.PatrimonioID;
-            patrimonioBanco.LocalizacaoID = patrimonio.LocalizacaoID;
-            patrimonioBanco.TipoPatrimonioID = patrimonio.TipoPatrimonioID;
             patrimonioBanco.StatusPatrimonioID = patrimonio.StatusPatrimonioID;
 
             _context.SaveChanges();
         }
 
-        public void AtualizarStatus(Patrimonio patrimonio)
+        public void AdicionarLog(LogPatrimonio logPatrimonio)
         {
-            if (patrimonio == null)
-            {
-                return;
-            }
-
-            Patrimonio? patrimonioBanco = _context.Patrimonio.FirstOrDefault
-                (varAux => varAux.PatrimonioID == patrimonio.PatrimonioID && varAux.StatusPatrimonioID == patrimonio.StatusPatrimonioID);
-
-            if (patrimonioBanco == null)
-            {
-                return;
-            }
-
-            patrimonioBanco.PatrimonioID = patrimonio.PatrimonioID;
-            patrimonioBanco.StatusPatrimonioID = patrimonio.StatusPatrimonioID;
+            _context.LogPatrimonio.Add(logPatrimonio);
+            _context.SaveChanges();
         }
     }
 }

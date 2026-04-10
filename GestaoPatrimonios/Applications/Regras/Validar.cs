@@ -75,5 +75,13 @@ namespace GestaoPatrimonios.Applications.Regras
                 throw new DomainException("Patrimônio é obrigatório.");
             }
         }
+
+        public static void ValidarNumeroPatrimonio(string numeroPatrimonio)
+        {
+            if (string.IsNullOrWhiteSpace(numeroPatrimonio))
+            {
+                throw new DomainException("Número de patrimônio é obrigatório.");
+            }
+        }
     }
 }

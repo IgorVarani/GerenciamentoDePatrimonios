@@ -297,3 +297,4 @@ C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\De
 C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPa.3E2BB5C3.Up2Date
 C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\GestaoPatrimonios.genruntimeconfig.cache
 C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\obj\Debug\net8.0\ref\GestaoPatrimonios.dll
+C:\Users\43698404818\Desktop\GerenciamentoDePatrimonios\GestaoPatrimonios\bin\Debug\net8.0\CsvHelper.dll
